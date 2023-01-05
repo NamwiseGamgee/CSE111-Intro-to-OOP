@@ -1,0 +1,8 @@
+public class CSEStudent{
+  public CSEStudent(){
+  super.msg="I want to transfer to CSE";
+  }
+ 
+
+
+}

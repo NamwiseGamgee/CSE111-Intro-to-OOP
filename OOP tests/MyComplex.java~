@@ -1,0 +1,18 @@
+public class MyComplex {
+public int realPart,imaginaryPart;
+public MyComplex(){
+
+}
+public void setRealPart(int r) {
+realPart=r;
+}
+public void setimaginaryPart(int i) {
+imaginaryPart=i;
+}
+public String add(MyComplex c) {
+realPart=c.realPart+a.realPart;
+imaginaryPart=c.imaginaryPart+a.imaginaryPart+"i";
+return new MyComplex(realPart,imaginaryPart);
+
+}
+}

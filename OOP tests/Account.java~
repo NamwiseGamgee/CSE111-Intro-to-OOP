@@ -1,0 +1,28 @@
+public class Account{
+  public String name="Default Account";
+  public double interestRate=5.0;
+  public double number=0.0;
+  
+  public Account(){
+  }
+  
+  public Account(String s,double i) { 
+  name=s;
+  number=i;
+  }
+  
+  public String nameKi() {
+  return name;
+  }
+  
+  public int balanceKi() {
+  return number;
+  }
+  
+  public nameBosao(String s) {
+  this.name=s;
+  }
+  public balanceBoshao(double i) {
+  this.number=i;
+  }
+}

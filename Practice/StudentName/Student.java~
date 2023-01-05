@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class Student {
+  private String name;
+  private double id,cgpa;
+  public void setName(String n) {
+    name=n;
+  }
+  public String getName() {
+    return name;
+  }
+  public void setID(double i) {
+    id=i;
+  }
+  public double getID() {
+    return id;
+  }
+  public void setCGPA(double cg) {
+    cgpa=cg;
+  }
+  public double getCGPA() {
+    return cgpa;
+  }
+}

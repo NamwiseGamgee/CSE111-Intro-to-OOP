@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class mubin {
+ public static void main(String[] dhon)
+ {
+     Scanner sc = new Scanner(System.in);
+     int n=10;
+     System.out.println(n);
+     System.out.println(n++);
+
+     System.out.println(++n);
+
+ }
+}

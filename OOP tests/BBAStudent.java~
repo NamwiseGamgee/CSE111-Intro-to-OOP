@@ -1,0 +1,8 @@
+public class BBAStudent extends Student{
+
+  public BBAStudent(){
+  name="Default BBA Student";
+  department = "BBA";
+  }
+
+}

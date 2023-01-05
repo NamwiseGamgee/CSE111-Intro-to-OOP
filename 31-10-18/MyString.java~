@@ -1,0 +1,49 @@
+public class MyString{
+  char[]c;
+  public MyString(){
+    c=new char[0];
+  }
+  public MyString(String s){
+    c=s.toCharArray();
+  }
+  public MyString(char[]x){
+    c=new char[x.length];
+    for(int i=0;i<x.length;i++){
+      c[i]=x[i];
+    }
+  }
+  public int length(){
+    
+    return c.length;
+  }
+  char charAt(int n){
+   
+    if (n<0 || n>=c.length) {
+  
+    return (char)0;
+    }
+    return c[n];
+  }
+  public boolean startsWith(MyString prefix) {
+  char[] a=prefix.toCharArray();
+  boolean sotti=true;
+  if (a.length<c.length) {
+      if (a.length==0) {
+          return sotti;
+      }
+      else {
+          for (int i=0;i<a.length;i++) {
+              if (a[i]==c[i]) {
+              
+              }
+              else {
+                  sotti=false;
+              return sotti;
+              break;
+              }
+          }
+      }
+      return sotti;
+  }
+  }
+}

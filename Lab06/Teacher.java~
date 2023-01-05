@@ -1,0 +1,7 @@
+public class Teacher {
+  public void Teacher (String n,String c) {
+    name=n;
+    course=c;
+  }
+}
+  

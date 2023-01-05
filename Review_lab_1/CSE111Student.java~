@@ -1,0 +1,5 @@
+public class CSE111Student{
+public CSE111Student(){
+  super.msg="I love Java Programming";
+  }
+}
